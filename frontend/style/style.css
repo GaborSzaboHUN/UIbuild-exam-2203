@@ -1,0 +1,131 @@
+body {
+    background-color: #f8f7f3;
+    /* 
+    color: #1a24fb;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Overpass', sans-serif; 
+    */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+
+    background-color: #1a24fb;
+    color: #f8f7f3;
+}
+
+header>h1 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+
+    text-transform: uppercase;
+}
+
+header>h1>p>span {
+    font-size: 24px;
+}
+
+#cards-container {
+    max-width: 1280px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin: 0 auto;
+    padding: 100px 10px 60px;
+}
+
+.book-card-container {
+    width: 360px;
+
+    margin-bottom: 80px;
+    color: #1a24fb;
+}
+
+.card-inner {
+    position: relative;
+    min-height: 415px;
+
+    margin-bottom: 10px;
+    border: 1px solid #1a24fb;
+    padding: 0 40px 40px;
+}
+
+.book-number {
+    position: absolute;
+    right: 12px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.book-author {
+    min-height: 60px;
+
+    padding: 40px 0 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.book-title {
+    min-height: 110px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.book-description {
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.more {
+    width: 100%;
+    height: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.more>span {
+    font-size: 18px;
+}
+
+.more:hover {
+    color: #f8f7f3;
+    background-color: #1a24fb;
+}
